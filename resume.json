@@ -1,0 +1,132 @@
+{
+  "name": "Mohamed Razan",
+  "email": "MohamedRazanr@gmail.com",
+  "phone": "+94 76 688 5194",
+  "address": "61, 13th Road, Sammanthurai, Sri Lanka",
+  "title": "Senior Full Stack Developer | Flutter Specialist | CTO",
+  "summary": "Self-driven software engineer with 5+ years of professional experience. Expert in Flutter and cross-platform mobile development. Skilled in building fintech, e-commerce, POS, SaaS platforms, domain reseller systems, and AI-powered apps. Strong leadership as CTO at Macvision IT Solutions, overseeing scalable architecture, cloud deployments, and team mentorship.",
+  
+  "experience": [
+    {
+      "company": "Mahincha IT Solutions (Macvision IT Solutions)",
+      "role": "Chief Technology Officer (CTO)",
+      "duration": "Dec 2024 - Present",
+      "details": [
+        "Leading product strategy and technical execution for domain reseller platforms, SaaS products, and custom mobile apps.",
+        "Managing cross-functional development teams and ensuring on-time delivery of projects.",
+        "Designed and deployed scalable cloud solutions on Firebase, AWS, and GCP.",
+        "Expanded company services to hosting, custom email solutions, and multiplayer game development."
+      ]
+    },
+    {
+      "company": "Mahincha IT Solutions (Macvision IT Solutions)",
+      "role": "Senior Full Stack Developer",
+      "duration": "Jun 2023 - Dec 2024",
+      "details": [
+        "Built and maintained multiple production apps in Flutter, integrating real-time Firebase databases and payment gateways.",
+        "Implemented CI/CD pipelines with GitHub Actions for automated testing and deployment.",
+        "Enhanced customer platforms with hosting, custom email, and DNS management features.",
+        "Mentored junior developers, conducted code reviews, and streamlined team workflows."
+      ]
+    },
+    {
+      "company": "Upgrade IB (Remote)",
+      "role": "Flutter Software Developer",
+      "duration": "Nov 2022 - Jun 2023",
+      "details": [
+        "Developed a finance-focused mobile app with multi-language support and real-time data visualization.",
+        "Integrated third-party APIs for payments, authentication, and transaction processing.",
+        "Collaborated with international teams to align app functionality with business goals."
+      ]
+    },
+    {
+      "company": "Freelance Projects",
+      "role": "Full Stack & Mobile Developer",
+      "duration": "2019 - 2022",
+      "details": [
+        "Delivered custom Flutter apps for clients in e-commerce, logistics, and education.",
+        "Created POS systems with inventory management and offline sync.",
+        "Built small-scale AI chatbots using Python and TensorFlow for customer engagement."
+      ]
+    }
+  ],
+
+  "projects": [
+    {
+      "name": "DotHarbor",
+      "stack": ["Flutter", "Firebase", "Python", "FastAPI"],
+      "features": [
+        "Domain reseller app with hosting & custom email integration",
+        "Real-time TLD pricing & margin control",
+        "AI-powered domain suggestions"
+      ]
+    },
+    {
+      "name": "Open World Multiplayer Game",
+      "stack": ["Flutter", "Firebase", "Sprite Animation"],
+      "features": [
+        "Zoomable 2D world map with tap-to-move multiplayer",
+        "Directional sprite walking animations",
+        "Firebase real-time multiplayer support"
+      ]
+    },
+    {
+      "name": "Upgrade IB",
+      "stack": ["Flutter", "Node.js", "Swift", "Objective-C", "Python", "Firebase"],
+      "features": ["Account Management", "Bill Payments", "Financial Insights"]
+    },
+    {
+      "name": "POS System",
+      "stack": ["Flutter", "Firebase", "SQLite"],
+      "features": [
+        "Inventory & billing management",
+        "Offline support with auto-sync",
+        "Custom reporting dashboard"
+      ]
+    }
+  ],
+
+  "education": [
+    {
+      "institution": "E-soft Metro Campus",
+      "field": "HND in Software Engineering",
+      "duration": "Sep 2023 - Present"
+    },
+    {
+      "institution": "Technical College of Sammanthurai",
+      "field": "Diploma in Information Technology",
+      "duration": "Nov 2019 - May 2020"
+    }
+  ],
+
+  "skills": [
+    "Flutter", "Firebase", "Python", "FastAPI", "Node.js", "Express.js",
+    "Dart", "Java", "Swift", "Objective-C", "JavaScript", "TypeScript",
+    "REST API", "GraphQL", "MySQL", "PostgreSQL", "SQLite", "MongoDB",
+    "CI/CD", "Docker", "Kubernetes", "Git/GitHub", "Linux Server Management",
+    "UI/UX Design", "Agile Development", "Leadership", "Mentorship",
+    "Cloud: AWS, GCP, Firebase Hosting"
+  ],
+
+  "certifications": [
+    {
+      "name": "Flutter Advanced Development",
+      "issuer": "Udemy",
+      "year": 2022
+    },
+    {
+      "name": "Google IT Automation with Python",
+      "issuer": "Coursera",
+      "year": 2021
+    }
+  ],
+
+  "languages": ["Tamil", "English", "Sinhala (basic)"],
+
+  "interests": [
+    "AI and machine learning",
+    "Open-source contributions",
+    "Game development",
+    "Tech blogging and mentoring"
+  ]
+}

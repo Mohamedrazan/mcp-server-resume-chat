@@ -1,7 +1,6 @@
 from flask import Flask, render_template, request
-from rapidfuzz import fuzz, process
-import smtplib
-from email.mime.text import MIMEText
+# import smtplib
+# from email.mime.text import MIMEText
 import json
 import time
 
@@ -17,14 +16,14 @@ MIN_DELAY = 5
 
 @app.route("/")
 def home():
-    return render_template("index.html")
+    return render_template("home.html")
 
 
 @app.route("/chat", methods=["POST"])
 def chat():
     ip = request.remote_addr
     now = time.time()
- 
+
     last = chat_request_times.get(ip, 0)
     if now - last < MIN_DELAY:
         return render_template(
@@ -126,7 +125,7 @@ def send_email():
 
     ip = request.remote_addr
     now = time.time()
- 
+
     last = email_request_times.get(ip, 0)
     if now - last < MIN_DELAY:
         return render_template(
@@ -139,10 +138,16 @@ def send_email():
     subject = request.form.get("subject", "")
     body = request.form.get("body", "")
 
+    # --- Mock sending email ---
+    print(f"[Mock Email] To: {recipient} | Subject: {subject}\n{body}")
+    result = f"Email simulated! To: {recipient}, Subject: {subject}"
+
+    # --- Real SMTP code (commented out) ---
+    """
     SMTP_SERVER = "sandbox.smtp.mailtrap.io"
     SMTP_PORT = 2525
-    SMTP_USER = "2207be83f0f961"
-    SMTP_PASS = "5c627cbf4c814e"
+    SMTP_USER = ""
+    SMTP_PASS = ""
 
     try:
         msg = MIMEText(body)
@@ -159,9 +164,13 @@ def send_email():
 
     except Exception as e:
         result = f"Error sending email: {e}"
+    """
 
     return render_template("result.html", result=result)
 
 
+
+
 if __name__ == "__main__":
     app.run(debug=True)
+    # app.run(host="0.0.0.0", port=5001, debug=True, threaded=True)
